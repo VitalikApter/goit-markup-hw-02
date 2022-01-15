@@ -69,6 +69,10 @@ a {
   letter-spacing: 0.03em;
   color: #212121;
 }
+button:hover,
+button:focus {
+  color: #188ce8;
+}
 /*-----------------ADRESS----------------*/
 .adress-link {
   color: #757575;
@@ -199,18 +203,7 @@ a {
   color: rgba(255, 255, 255, 0.6);
 }
 /*-------------PORTFOLIO--------*/
-.navigation-btn-item:hover,
-.navigation-btn-item:focus {
-  color: var(--link-color);
-}
-.navigation-btn-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
+
 .navigation-btn-item {
   cursor: pointer;
 }

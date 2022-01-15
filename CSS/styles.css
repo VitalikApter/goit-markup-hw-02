@@ -28,9 +28,6 @@ a {
   clip-path: inset(50%);
   margin: -1px;
 }
-.current {
-  color: var(--link-color);
-}
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -44,20 +41,7 @@ a {
 .logo-web {
   color: var(--link-color);
 }
-.header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: var(--header-text-color);
-}
-
-/*---------------NAVIGATION------------------*/
-.navigation-link:hover,
-.navigation-link:focus {
-  color: var(--link-color);
-}
-.navigation-list {
+.header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -67,6 +51,23 @@ a {
 .header-link:hover,
 .header-link:focus {
   color: var(--link-color);
+}
+.current {
+  color: var(--link-color);
+}
+/*---------------NAVIGATION------------------*/
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--link-color);
+}
+
+.navigation-btn-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 /*-----------------ADRESS----------------*/
 .adress-link {
@@ -104,6 +105,7 @@ a {
   color: #ffffff;
 }
 .hero-btn {
+  background-color: #2196f3;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -180,29 +182,17 @@ a {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-.footer-adress {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-.footer-item {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
 .footer-link:hover,
 .footer-link:focus {
   color: var(--link-color);
 }
 .footer-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
 /*-------------PORTFOLIO--------*/
 .navigation-btn-item:hover,
 .navigation-btn-item:focus {
@@ -236,19 +226,7 @@ a {
 .footer-link-web {
   color: #2196f3;
 }
-.footer-adress {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-.footer-adress-list {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-.footer-link {
+.footer-link-stiduo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -256,4 +234,18 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.footer-adress-list {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-adress {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-style: normal;
 }

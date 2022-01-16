@@ -3,11 +3,12 @@
   --first-title-color: #212121;
   --first-btn-color: #212121;
   --link-color: #2196f3;
+  --adress-lnk-color: #757575;
 }
 
 body {
   font-family: roboto, sans-serif;
-  color: #212121;
+  color: var(--first-title-color);
 }
 .list {
   list-style: none;
@@ -46,7 +47,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--first-btn-color);
 }
 .header-link:hover,
 .header-link:focus {
@@ -61,21 +62,13 @@ a {
   color: var(--link-color);
 }
 
-.navigation-btn-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
 button:hover,
 button:focus {
   color: #188ce8;
 }
 /*-----------------ADRESS----------------*/
 .adress-link {
-  color: #757575;
+  color: var(--adress-lnk-color);
 }
 .adress-link:hover,
 .adress-link:focus {
@@ -86,14 +79,14 @@ button:focus {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--adress-lnk-color);
 }
 .adress-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--adress-lnk-color);
 }
 /*--------------------HERO--------------------*/
 .hero {
@@ -108,8 +101,12 @@ button:focus {
   text-transform: uppercase;
   color: #ffffff;
 }
+.button-studio {
+  font-family: inherit;
+}
 .hero-btn {
   background-color: #2196f3;
+  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -117,6 +114,10 @@ button:focus {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.button-studio:hover,
+.button-studio:focus {
   color: #ffffff;
 }
 .btn {
@@ -134,7 +135,7 @@ button:focus {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--adress-lnk-color);
 }
 /*------------GALERY-------------------*/
 .gallery-title {
@@ -165,7 +166,7 @@ button:focus {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--adress-lnk-color);
 }
 /*---------------FOOTER------------*/
 .footer {
@@ -182,7 +183,7 @@ button:focus {
 }
 .footer-web {
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -220,7 +221,19 @@ button:focus {
   letter-spacing: 0.03em;
   color: #757575;
 }
-
+.button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+/*----------------FOOTER---------*/
 .footer-link-web {
   color: #2196f3;
 }
